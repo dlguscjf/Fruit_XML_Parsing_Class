@@ -12,6 +12,8 @@
 		0CC97B7D2161F45A0000E48F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC97B7B2161F45A0000E48F /* Main.storyboard */; };
 		0CC97B7F2161F45B0000E48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC97B7E2161F45B0000E48F /* Assets.xcassets */; };
 		0CC97B822161F45B0000E48F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC97B802161F45B0000E48F /* LaunchScreen.storyboard */; };
+		0CC97B8A2161F4A80000E48F /* Fruit.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0CC97B892161F4A80000E48F /* Fruit.xml */; };
+		0CC97B8C2161F4E20000E48F /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC97B8B2161F4E20000E48F /* FruitData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0CC97B7E2161F45B0000E48F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CC97B812161F45B0000E48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CC97B832161F45B0000E48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC97B892161F4A80000E48F /* Fruit.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Fruit.xml; sourceTree = "<group>"; };
+		0CC97B8B2161F4E20000E48F /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				0CC97B7E2161F45B0000E48F /* Assets.xcassets */,
 				0CC97B802161F45B0000E48F /* LaunchScreen.storyboard */,
 				0CC97B832161F45B0000E48F /* Info.plist */,
+				0CC97B892161F4A80000E48F /* Fruit.xml */,
+				0CC97B8B2161F4E20000E48F /* FruitData.swift */,
 			);
 			path = Fruit_XML_Parsing_Class;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				0CC97B822161F45B0000E48F /* LaunchScreen.storyboard in Resources */,
 				0CC97B7F2161F45B0000E48F /* Assets.xcassets in Resources */,
+				0CC97B8A2161F4A80000E48F /* Fruit.xml in Resources */,
 				0CC97B7D2161F45A0000E48F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				0CC97B7A2161F45A0000E48F /* ViewController.swift in Sources */,
 				0CC97B782161F45A0000E48F /* AppDelegate.swift in Sources */,
+				0CC97B8C2161F4E20000E48F /* FruitData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
